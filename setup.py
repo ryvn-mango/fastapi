@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="fastapi",
+    name="backend-fastapi",
     packages=find_packages(),
 )

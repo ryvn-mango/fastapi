@@ -9,7 +9,7 @@ from opentelemetry.instrumentation.fastapi import FastAPIInstrumentor
 import os
 
 
-def setup_telemetry(app, service_name: str = "fastapi"):
+def setup_telemetry(app, service_name: str = "backend-fastapi"):
     """Configure OpenTelemetry for the FastAPI application."""
     try:
         # Create a resource

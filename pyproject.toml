@@ -1,5 +1,5 @@
 [project]
-name = "fastapi"
+name = "backend-fastapi"
 version = "0.1.0"
 description = "A production-ready FastAPI backend for Next.js"
 dependencies = [
