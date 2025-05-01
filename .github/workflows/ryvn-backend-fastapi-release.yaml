@@ -70,7 +70,7 @@ jobs:
           fetch-depth: 0
 
       - name: Build and Push
-        uses: ryvn-technologies/ryvn-build-action@v1.3.0
+        uses: ryvn-technologies/ryvn-build-action@v1.2.0
         with:
           service_name: ${{ env.SERVICE_NAME }}
           version: ${{ needs.generate-tag.result == 'success' && needs.generate-tag.outputs.version || '' }}
