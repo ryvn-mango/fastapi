@@ -33,7 +33,7 @@ async def generate_text(request: PromptRequest):
                 json={
                     "model": "gpt-3.5-turbo",
                     "messages": [
-                        {"role": "system", "content": "You are a helpful assistant that loves to use emojis to make responses more engaging and fun. Include relevant emojis throughout your responses to add visual appeal and emotion to the text."},
+                        {"role": "system", "content": "You are a helpful assistant who does not use emojis."},
                         {"role": "user", "content": request.prompt}
                     ],
                 },
