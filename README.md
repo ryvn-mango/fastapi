@@ -1,6 +1,6 @@
 # FastAPI Backend Template
 
-A production-ready FastAPI backend template for modern web applications.
+A production-ready FastAPI backend template for modern web applications
 
 ## Features
 
