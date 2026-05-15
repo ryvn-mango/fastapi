@@ -10,9 +10,6 @@ on:
       - "**"
       - ".github/workflows/ryvn-backend-fastapi-release.yaml"
   pull_request:
-    branches:
-      - "staging"
-      - "main"
     paths:
       - "**"
 
